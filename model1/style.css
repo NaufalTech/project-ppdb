@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    position: relative;
+    cursor: default;
+    margin: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.dropdown-content{
+    display: none;
+    transition: 1ms;
+    cursor: default;
+}
+
+.wrapper:hover .dropdown-content {
+    display: block;
+    background-color: red;
+    /* transition: ; */
+    cursor: default;
+}

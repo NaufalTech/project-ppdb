@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/vendor/swiper/swiper-bundle.min.css">
+    <!-- <style>
+        .swiper {
+            width: 600px;
+            height: 300px;
+        }
+    </style> -->
+    
+</head>
+<body>
+    <div style="width: 100%; height: 100px; background-color: blue;">
+        <swiper-container navigation="true" pagination="true" scrollbar="true">
+            <swiper-slide style="height: 50px; height: 50px; background-color: red;">Slide 1</swiper-slide>
+            <swiper-slide style="height: 50px; height: 50px;">Slide 2</swiper-slide>
+            <swiper-slide style="height: 50px; height: 50px;">Slide 3</swiper-slide>
+            ...
+          </swiper-container>
+    </div>
+    <div class="swiper swiper-container" style="height: 300px; width: 600px;">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+     
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script>
+        // Import Swiper and modules
+        import Swiper from 'swiper';
+        import { Navigation, Pagination, Scrollbar } from 'swiper/modules';
+
+        // Now you can use Swiper
+        const swiper = new Swiper('.swiper', {
+        // Install modules
+        modules: [Navigation, Pagination, Scrollbar],
+        speed: 500,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        // ...
+        });
+      </script>
+</body>
+</html>

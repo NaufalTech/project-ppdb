@@ -1,0 +1,14 @@
+TODO LIST
+
+    1.  hapus <section id="why-us">
+
+    2.  coba buat <section> baru sistem aos di antara 
+            <section id="counts"> dan <section id="features"> 
+            dengan 3 content div berita terbaru yang berjalan otomatis
+            setiap 4 detik
+
+    3.  Buat lebih bagus Bagian Kegiatan Sekolah (daftar kegiatan sekolah)
+            <section id="popular-courses">
+            - buat jadi kayak daftar table dengan 4 baris dan 2 kolom 
+            - buat button "lihat lebih banyak lagi"
+            - buat table khusus untuk daftar kegiatan
