@@ -5,30 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../assets/vendor/swiper/swiper-bundle.min.css">
-    <!-- <style>
-        .swiper {
+    <style>
+        swiper-slide {
             width: 600px;
             height: 300px;
         }
-    </style> -->
+
+        .abc {
+            background: url('../assets/img/about.jpg');
+        }
+    </style>
     
 </head>
 <body>
     <div style="width: 100%; height: 100px; background-color: blue;">
         <swiper-container navigation="true" pagination="true" scrollbar="true">
-            <swiper-slide style="height: 50px; height: 50px; background-color: red;">Slide 1</swiper-slide>
-            <swiper-slide style="height: 50px; height: 50px;">Slide 2</swiper-slide>
-            <swiper-slide style="height: 50px; height: 50px;">Slide 3</swiper-slide>
-            ...
+            <swiper-slide style="height: 50px; height: 50px; background-color: red; border: solid blue 1px;">Slide 1</swiper-slide>
+            <swiper-slide style="height: 50px; height: 50px; background-color: red; border: solid blue 1px;">Slide 2</swiper-slide>
+            <swiper-slide style="height: 50px; height: 50px; background-color: red; border: solid blue 1px;">Slide 3</swiper-slide>
+        
           </swiper-container>
+          <button style="width: 200px; height: 200px;"></button>
     </div>
-    <div class="swiper swiper-container" style="height: 300px; width: 600px;">
+    <div class="swiper swiper-container" style="height: 300px; width: 600px; background-color: green;">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
-          <div class="swiper-slide">Slide 1</div>
-          <div class="swiper-slide">Slide 2</div>
-          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide" style="background-color: red; overflow: hidden;">Slide 1</div>
+          <div class="swiper-slide" style="background-color: grey; overflow: hidden;">Slide 2</div>
+          <div class="swiper-slide" style="background-color: yellow; overflow: hidden;">Slide 3</div>
           ...
         </div>
         <!-- If we need pagination -->
@@ -39,26 +44,38 @@
         <div class="swiper-button-next"></div>
       
         <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
+        <!-- <div class="swiper-scrollbar"></div> -->
+      </div>
+      <br>
+      <hr>
+      <div class="abc">
+
       </div>
      
     <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script>
-        // Import Swiper and modules
-        import Swiper from 'swiper';
-        import { Navigation, Pagination, Scrollbar } from 'swiper/modules';
+        var mySwiper = new Swiper ('.swiper-container', {
+            direction: 'horizontal',
+            loop: true,
 
-        // Now you can use Swiper
-        const swiper = new Swiper('.swiper', {
-        // Install modules
-        modules: [Navigation, Pagination, Scrollbar],
-        speed: 500,
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        // ...
-        });
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            scrollbar: {
+                el:'.swiper-scrollbar',
+            },
+
+            autoplay: {
+                delay: 5000,
+            }
+        })
+
+        // import
       </script>
 </body>
 </html>
