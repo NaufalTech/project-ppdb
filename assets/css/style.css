@@ -496,7 +496,7 @@ section {
 }
 
 .section-title {
-  padding-bottom: 40px;
+  
 }
 
 .section-title h2 {
@@ -510,7 +510,7 @@ section {
   color: #aaaaaa;
   font-family: "Poppins", sans-serif;
 }
-
+/* 
 .section-title h2::after {
   content: "";
   width: 120px;
@@ -518,7 +518,7 @@ section {
   display: inline-block;
   background: #9ae1af;
   margin: 4px 10px;
-}
+} */
 
 .section-title p {
   margin: 0;
@@ -610,7 +610,7 @@ section {
 .counts .counters span {
   font-size: 48px;
   display: block;
-  color: #5fcf80;
+  color: #008bf6;
   font-weight: 700;
 }
 
@@ -628,7 +628,7 @@ section {
 --------------------------------------------------------------*/
 .why-us .content {
   padding: 30px;
-  background: #5fcf80;
+  background: #008bf6;
   border-radius: 4px;
   color: #fff;
 }

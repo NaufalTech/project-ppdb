@@ -1,0 +1,328 @@
+article.article {
+    display: flex;
+    justify-content: center;
+    background: whitesmoke;
+    /* height: 1000px; */
+    width: inherit;
+
+}
+
+section {
+    background-color: white;
+}
+
+.header-logo {
+    height: 30px;
+    margin: 0 10px 0 10px;
+    
+}
+
+
+#header .logo {
+    min-width: 120px;
+    /* height: 30px; */
+    /* font-size: medium; */
+}
+
+.wrapper-section-title {
+    display: flex;
+    padding-bottom: 20px;
+    width: 95%;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.wrapper-content {
+    width: 90%;
+    overflow: hidden;
+}
+
+.berita-terbaru {
+    /* background-color: red; */
+    /* width: inherit;
+    height: inherit; */
+
+    /* border: solid blue 2px */
+}
+
+.wrapper-swiper-container {
+    display: grid;
+    justify-items: center;
+}
+
+.swiper-wrapper {
+    aspect-ratio: 16/9;
+    width: 100%;
+}
+
+.wrapper-berita-terbaru {
+    /* outline: solid blue 3px; */
+    width: 100%;
+    /* aspect-ratio: 10/1; */
+    /* height: 80%; */
+    /* border: solid blue 2px; */
+    /* height: 500px; */
+    /* margin: 10px; */
+    /* background: linear-gradient(black, white); */
+    background: linear-gradient(white, grey); 
+    /* url("/project-ppdb/model2/about.jpg"); */
+}
+
+
+.img-berita-terbaru {
+    width: 100%;
+    /* height: 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    /* background-position: 50% 50%; */
+    background-size: cover;
+    background-attachment: fixed;
+    /* padding-right: 44px; */
+    /* background: linear-gradient(white, grey); */
+}
+
+#swiper-button-next, #swiper-button-prev{
+    border-radius: 10px;
+    padding: 20px;
+    /* width: 44px; */
+    
+    --swiper-navigation-size: 30px;
+    /* --swiper-navigation-top-offset: 50%;
+    --swiper-navigation-sides-offset: 10px; */
+    width: var(--swiper-navigation-size);
+    /* height: 44px; */
+    background-color: darkgray;
+    /* aspect-ratio: 1/1; */
+    box-shadow: rgb(61, 61, 61) 0px 0px 20px 1px;
+    /* size: 10px; */
+    
+
+}
+
+#swiper-button-next:hover, #swiper-button-prev:hover {
+    background-color: #008bf6;
+    color: white;
+    transition: 0.3s;
+}
+/* .swiper-button-next {
+    background-color: red;
+} */
+
+
+
+.linear-bg-berita-terbaru {
+    height: 60%;
+    bottom: 0;
+    position: absolute;
+    width: inherit;
+    background: linear-gradient(#ffffff00, black);
+}
+
+.berita-terbaru {
+    padding: 0 0 40px 40px;
+    display: grid;
+    bottom: 0;
+    position: absolute;
+    width: initial;
+    height: initial;
+    
+    
+}
+
+.tag-group {
+ display: flex;
+
+}
+
+.tags {
+    display: unset;
+    font-size: small;
+    text-align: left;
+    max-width: 12ch;
+    color: rgb(67, 67, 67);
+    background-color: rgb(255, 255, 95);
+    background-size: contain;
+    padding: 3px 5px 3px 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+
+.hgroup-berita-terbaru  {
+    display: grid;
+    margin-top: 10px;
+    color: white;
+    max-height: 4.75rem;
+}
+
+.hgroup-berita-terbaru h3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.hgroup-berita-terbaru h3:hover {
+    color: #008bf6;
+}
+
+#swiper-pagination {
+    /* background: white; */
+    /* width: ; */
+}
+
+.swiper-pagination-bullet {
+    background: white;
+}
+
+.container-button-lihatSelengkapnya {
+    display: flex;
+    justify-content: center;
+    /* margin: 15px 0 15px 0; */
+}
+
+.wrapper-button-lihatSelengkapnya {
+    /* width: 90%; */
+    display: flex;
+    justify-content: right;
+}
+
+.outline-button-lihatSelengkapnya{
+    outline: solid #008bf6 3px;
+    border-radius: 100px;
+    /* padding: 7px; */
+}
+
+a.button-lihatSelengkapnya {
+    width: fit-content;
+    text-align: right;
+    /* padding-right: 10px; */
+    color: #008bf6;
+    /* font-size: large; */
+    /* margin: 15px; */
+    /* background-color: green; */
+}
+
+.button-lihatSelengkapnya:hover {
+    /* color: white; */
+    color: #008bf6a7;
+}
+
+.outline-button-lihatSelengkapnya:hover {
+    background-color: #008bf6;
+    color: whitesmoke;
+}
+
+/* i.bi-arrow-right {
+    color
+} */
+
+.footer-logo {
+    width: fit-content;
+}
+
+.footer-contact {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0px!important;
+}
+
+@media (max-width: 768px) {
+
+    .section-title #title-kegiatan-terbaru {
+        font-size: medium;
+    }
+
+    #swiper-button-prev, #swiper-button-next {
+        /* width: 30px;
+        height: 30px;
+        padding: 10px;
+        --swiper-navigation-size: 30px;
+        background-color: unset;
+        box-shadow: none; */
+        display: none;
+    }
+
+    /* #swiper-button-next:hover, #swiper-button-prev:hover {
+        background-color: unset;
+        color: #008bf6;
+        transition: unset;
+        
+    } */
+    
+    .berita-terbaru {
+        padding: 0 0 15px 15px;
+        
+    }
+
+    .tags {
+        font-size:small;
+    }
+
+    .h3-berita-terbaru {
+        font-size: x-large;
+        margin-bottom: 0px;
+        /* max-height: fit-content; */
+    }
+
+    .h5-berita-terbaru {
+        font-size: x-small;
+    }
+
+    .container .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section-title h3 {
+        margin-top: 20px;
+    }
+
+    .section-title {
+        margin-bottom: 0px;
+    }
+
+    #swiper-pagination {
+        bottom: 1px;
+    }
+}
+@media (max-width: 425px){
+
+    /* header */
+
+    #header .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    #header .logo a {
+        font-size: medium;
+    }
+
+    /* swiper */
+    .berita-terbaru {
+        padding: 0 0 10px 10px;
+    }
+
+    .hgroup-berita-terbaru {
+        margin-top: 5px;
+    }
+
+    .h3-berita-terbaru {
+        font-size: medium;
+    }
+
+    .h5-berita-terbaru {
+        font-size: xx-small;
+    }
+
+    #footer .footer-top {
+        padding-top: 20px;
+    }
+    
+
+}

@@ -17,12 +17,13 @@ var mySwiper = new Swiper ('.swiper-container', {
     spaceBetween: 30,
     centeredSlides: true,
 
-    autoplay: {
-      delay: 5,
-      disableOnInteraction: false
-    },
+    // autoplay: {
+    //   delay: 5000,
+    //   disableOnInteraction: false,
+    // },
 
 })
+
 
 // var mySwiper
 // const swiper = new swiper('.swiper-container', {

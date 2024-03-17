@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/logo-smk-5.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -47,16 +47,19 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     
-    <div class="container d-flex align-items-center">
-
-      <h1 class="logo me-auto"><a href="#">SMKN 5 PALU</a></h1>
+    <div class="container d-flex align-items-center items justify-content-between">
+      <div class="wrapper-logo d-flex align-items-center">
+        <img src="assets/img/logo-smk-5.png" class="header-logo">
+        <h1 class="logo me-auto"><a href="#">SMKN 5 PALU</a></h1>
+      </div>
+      
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <!-- <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="about.html">Profil</a></li>
+           <li><a class="active" href="index.html">Home</a></li>
+          <!--<li><a href="about.html">Profil</a></li>
           <li><a href="courses.html">Keguruan</a></li>
           <li><a href="trainers.html">Kurikulum</a></li>
           <li><a href="events.html">Kesiswaan</a></li>
@@ -65,7 +68,7 @@
           
           <li class="dropdown"><a href="#"><span>Profil</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Sejarah singkat</a></li>
+              <li><a href="profil/sejarah.html">Sejarah singkat</a></li>
               <li><a href="#">Prakata Kepala Sekolah</a></li>
               <li><a href="#">Pengembagan Sekolah</a></li>
               <li><a href="#">Visi dan Misi</a></li>
@@ -269,7 +272,7 @@
     <!-- End Why Us Section -->
 
     <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
+    <!-- <section id="features" class="features">
       <div class="container" data-aos="fade-up">
         <h3>Tag Populer</h3>
 
@@ -349,7 +352,7 @@
         </div>
 
       </div>
-    </section><!-- End Features Section -->
+    </section>End Features Section -->
 
     <!-- <section class=>
       <div class="row">
@@ -363,12 +366,22 @@
     <!-- ======= Popular Courses Section ======= -->
     <section id="popular-courses" class="courses">
       <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Kegiatan Sekolah</h2>
-          <p>Kegiatan Terbaru</p>
+        <div class="wrapper-section-title">
+          <div class="section-title">
+            <h2 id="h2-section-title">Kegiatan Sekolah</h2>
+            <p id="title-kegiatan-terbaru">Kegiatan Terbaru</p>
+          </div>
+          <div class="container-button-lihatSelengkapnya">
+            <div class="wrapper-button-lihatSelengkapnya">
+              
+                <a class="button-lihatSelengkapnya h3" href="kegiatan-sekolah/">
+                  Berita lainnya
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              
+            </div>
+          </div>
         </div>
-
         <!-- <div class="row" data-aos="zoom-in" data-aos-delay="100">
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
@@ -450,11 +463,11 @@
           </div>
           
         </div> -->
-        <div style="display: flex; justify-content: center;">
-          <div class="col-lg-4 d-flex wrapper-content swiper-container" data-aos="zoom-in" data-aos-delay="100">
+        <div class="wrapper-swiper-container">
+          <div class="col-lg-4 col-md-4 md d-flex wrapper-content swiper-container" data-aos="zoom-in" data-aos-delay="100">
             <div class="swiper-wrapper">
-              <a class="wrapper-berita-terbaru swiper-slide" data-swiper-autoplay="2000" href="#">
-                <img class="img-berita-terbaru d-flex justify-content-center align-items-centerimg-berita-terbaru" src="/project-ppdb/model2/about.jpg">
+              <a class="wrapper-berita-terbaru swiper-slide" href="#">
+                <img class="img-berita-terbaru d-flex justify-content-center align-items-centerimg-berita-terbaru" src="/project-ppdb/about.jpg">
                 <div class="linear-bg-berita-terbaru">
                   <div class="berita-terbaru">
                     <div class="tag-group">
@@ -464,14 +477,14 @@
                     </div>
                     <div class="hgroup-berita-terbaru">
                       <!-- <img class="img-berita-terbaru" src='assets/img/hero-bg.jpg'> -->
-                      <h4>BELAJAR</h4>
-                      <h5>tanggal</h5>
+                      <h3 class="h3-berita-terbaru">BELAJAR Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod BELAJAR Lorem ipsum dolor sit amet,BELAJAR Lorem ipsum dolor sit amet</h3>
+                      <h5 class="h5-berita-terbaru">tanggal</h5>
                     </div>
                   </div>
                 </div>
               </a>
-              <a class="wrapper-berita-terbaru swiper-slide" data-swiper-autoplay="2000" href="#">
-                <img class="img-berita-terbaru d-flex justify-content-center align-items-centerimg-berita-terbaru" src="/project-ppdb/model2/about.jpg">
+              <a class="wrapper-berita-terbaru swiper-slide" href="#">
+                <img class="img-berita-terbaru d-flex justify-content-center align-items-centerimg-berita-terbaru" src="/project-ppdb/about.jpg">
                 <div class="linear-bg-berita-terbaru">
                   <div class="berita-terbaru">
                     <div class="tag-group">
@@ -481,14 +494,14 @@
                     </div>
                     <div class="hgroup-berita-terbaru">
                       <!-- <img class="img-berita-terbaru" src='assets/img/hero-bg.jpg'> -->
-                      <h4>BELAJAR</h4>
-                      <h5>tanggal</h5>
+                      <h3 class="h3-berita-terbaru" class="hgroup-berita-terbaru">BELAJAR Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod BELAJAR Lorem ipsum dolor sit amet,BELAJAR Lorem ipsum dolor si</h3>
+                      <h5 class="h5-berita-terbaru" class="hgroup-berita-terbaru">tanggal</h5>
                     </div>
                   </div>
                 </div>
               </a>
-              <a class="wrapper-berita-terbaru swiper-slide" data-swiper-autoplay="2000" href="#">
-                <img class="img-berita-terbaru d-flex justify-content-center align-items-centerimg-berita-terbaru" src="/project-ppdb/model2/about.jpg">
+              <a class="wrapper-berita-terbaru swiper-slide" href="#">
+                <img class="img-berita-terbaru d-flex justify-content-center align-items-centerimg-berita-terbaru" src="/project-ppdb/about.jpg">
                 <div class="linear-bg-berita-terbaru">
                   <div class="berita-terbaru">
                     <div class="tag-group">
@@ -498,14 +511,14 @@
                     </div>
                     <div class="hgroup-berita-terbaru">
                       <!-- <img class="img-berita-terbaru" src='assets/img/hero-bg.jpg'> -->
-                      <h4>BELAJAR</h4>
-                      <h5>tanggal</h5>
+                      <h3 class="h3-berita-terbaru">BELAJAR</h3>
+                      <h5 class="h5-berita-terbaru">tanggal</h5>
                     </div>
                   </div>
                 </div>
               </a>
-              <a class="wrapper-berita-terbaru swiper-slide" data-swiper-autoplay="2000" href="#">
-                <img class="img-berita-terbaru d-flex justify-content-center align-items-centerimg-berita-terbaru" src="/project-ppdb/model2/about.jpg">
+              <a class="wrapper-berita-terbaru swiper-slide" href="#">
+                <img class="img-berita-terbaru d-flex justify-content-center align-items-centerimg-berita-terbaru" src="/project-ppdb/about.jpg">
                 <div class="linear-bg-berita-terbaru">
                   <div class="berita-terbaru">
                     <div class="tag-group">
@@ -515,8 +528,8 @@
                     </div>
                     <div class="hgroup-berita-terbaru">
                       <!-- <img class="img-berita-terbaru" src='assets/img/hero-bg.jpg'> -->
-                      <h4>BELAJAR</h4>
-                      <h5>tanggal</h5>
+                      <h3 class="h3-berita-terbaru">BELAJAR</h3>
+                      <h5 class="h5-berita-terbaru">tanggal</h5>
                     </div>
                   </div>
                 </div>
@@ -526,11 +539,13 @@
             <!-- <div style="display: flex; align-content: center;"> -->
             <div id="swiper-pagination" class="swiper-pagination"></div>
             
-            <div id="swiper-button-prev" class="swiper-button-prev"></div>
+            <div id="swiper-button-prev" class="swiper-button-prev col-md-4"></div>
             <div id="swiper-button-next" class="swiper-button-next"></div>
             
           </div>
+
         </div>
+        
       </div>
     </section><!-- End Popular Courses Section -->
 
@@ -611,15 +626,16 @@
         <div class="row d-flex">
 
           <div class="footer-logo">
-            <img src="/project-ppdb/model2/assets/img/logo-smk-5.jpeg">
+            <img src="/project-ppdb/assets/img/logo-smk-5.png">
           </div>
 
           <div class="col-lg-3 col-md-6 footer-contact">
             
             <h3>SMK 5 PALU</h3>
-            <p>Jalan Untad I Bumi Roviega, Tondo, Palu Timur, Tondo, Kec. Ulujadi, Kota Palu</p>
-            <p>Sulawesi Tengah 94111</p>
-            <p style="margin-bottom: 10px;">Indonesia <p>
+            <p>Jalan Untad I Bumi Roviega</p>
+            <p>Tondo, Kec. Mantikulore, Kota Palu</p>
+            <!-- <p></p> -->
+            <p style="margin-bottom: 10px;">Sulawesi Tengah 94111<p>
               <strong>Phone:</strong> (0451) 4131848<br>
               <strong>Email:</strong> info@example.com<br>
             </p>
@@ -674,10 +690,10 @@
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
         <a href="https://web.facebook.com/SMK5PALU" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="youtube"><i class="bx bxl-youtube"></i></a>
+        <a href="https://www.instagram.com/smkn5.palu" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="http://www.youtube.com/@smkn5paluofficial862" class="youtube"><i class="bx bxl-youtube"></i></a>
         <!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
       </div>
     </div>
