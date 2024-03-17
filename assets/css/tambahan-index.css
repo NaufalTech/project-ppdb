@@ -1,15 +1,3 @@
-article.article {
-    display: flex;
-    justify-content: center;
-    background: whitesmoke;
-    /* height: 1000px; */
-    width: inherit;
-
-}
-
-section {
-    background-color: white;
-}
 
 .header-logo {
     height: 30px;
