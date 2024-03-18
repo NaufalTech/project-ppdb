@@ -1,6 +1,7 @@
-Thanks for downloading this template!
 
-Template Name: Mentor
-Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+
+REFRENSI 
+1. https://bootstrapmade.com/bootstrap-education-templates/
+
+1. https://www.jotform.com/build/240647595185366?s=templates
+2. https://www.jotform.com/id/form-templates/ppdb-online-tahun-ajaran-2020-2021
