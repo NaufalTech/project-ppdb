@@ -15,10 +15,11 @@ th , td {
 
 
 
+
 article.article {
     display: flex;
     justify-content: center;
-    background: whitesmoke;
+    /* background: whitesmoke; */
     /* height: 1000px; */
     width: inherit;
 
@@ -33,7 +34,7 @@ article.article {
 .wrapper-header-content {
     /* width: 1000px; */
     height: fit-content;
-    background: antiquewhite;
+    /* background: antiquewhite; */
     padding: 30px 40px;
 }
 
@@ -57,9 +58,132 @@ h2 {
     font-family: cursive;
 }
 
+.filter-content {
+    margin-bottom: 30px;
+}
+
+.list-filter-list-content #filter-button {
+    /* width: initial; */
+    font-size: larger;
+}
+
+.filter-list-content {
+    /* width: 20px; */
+    /* aspect-ratio: 1/1; */
+    font-size: 30px;
+}
+
+.daftar-filter {
+    display: none;
+}
+
+.wrapper-daftar-filter-list-content {
+    margin: 10px 5px;
+}
+
+.daftar-filter-list-content .tags-list {
+    /* background-color: red; */
+    border-radius: 12px;
+}
+
+.daftar-filter-list-content .tanggal {
+    
+}
+
+.list-content {
+    max-width: inherit;
+    /* background-color: whitesmoke; */
+    /* height: ; */
+}
+
+.wrapper-isi-content-list-content {
+    margin: 13px 10px;
+}
+
+.list-content .content-list-content {
+    width: 400px; height: 600px;
+    background-color: lightgrey;
+}
+
+.img-content-list-content {
+    margin: 5px;
+    /* width: 390px; */
+    /* border: blue 2px solid; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 16/9;
+}
+
+.img-list-content  {
+    /* aspect-ratio: 1/1; */
+    
+}
+
+.content-list-content .tag-group{
+    margin: 10px 0px;
+}
+
+.content-list-content a {
+    color: black;
+}
+
+.content-list-content a:hover {
+    color: #008bf6;
+}
+
+.isi-content-list-content {
+    margin: 10px 0px 15px;
+    text-align: justify;
+}
+
+.content-list-content p {
+    line-height: normal;
+    font-size: medium;
+}
+
+.content-list-content p::first-line {
+    /* font-variant-caps: titling-caps; */
+    /* font-variant: big-; */
+}
+
+.content-list-content .tanggal {
+    /* position: relative; */
+    /* text-align: end; */
+    margin: 10px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* @media (max:) { */
+    
+/* } */
+
 @media (max-width: 768px) {
     .isi-content p {
         font-size: medium;
+    }
+
+    
+    .list-content .content-list-content {
+        height: fit-content;
+        width: 100%;
+    }
+
+    .content-list-content .img-content-list-content {
+        /* width: 22; */
+    }
+
+    .img-content-list-content {
+        aspect-ratio: none;
+    }
+
+    .wrapper-isi-content-list-content  .tag-group,
+    .wrapper-isi-content-list-content .tanggal {
+        margin: 5px 0px;
+    }
+
+    .wrapper-isi-content-list-content .isi-content-list-content {
+        font-size: 14px;
     }
 }
 
@@ -73,12 +197,12 @@ h2 {
         font-size: x-small;
     }
 
-    .content-sejarah-kepala-sekolah h2 {
+    h2 {
         font-size: medium;
     }
 
-    .content-sejarah-kepala-sekolah table th,
-    .content-sejarah-kepala-sekolah table td {
+    table th,
+    table td {
         font-size: x-small;
     }
 }

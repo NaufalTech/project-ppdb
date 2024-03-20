@@ -28,5 +28,14 @@ var mySwiper = new Swiper ('.swiper-container', {
 // var mySwiper
 // const swiper = new swiper('.swiper-container', {
 
+function buttonFilter() {
+    document.getElementById("daftar-filter").style.display = "grid";
+}
 
-//    });
+function exitButtonFilter() {
+    document.getElementById("daftar-filter").style.display = "none"
+}
+
+// function buttonFilter() {
+//     document.getElementById("daftar-filter").style.display = "grid";
+// }
