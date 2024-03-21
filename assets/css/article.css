@@ -67,6 +67,12 @@ h2 {
     font-size: larger;
 }
 
+.list-filter-list-content #filter-button {
+    /* width: initial; */
+    font-size: larger;
+    
+}
+
 .filter-list-content {
     /* width: 20px; */
     /* aspect-ratio: 1/1; */
@@ -84,6 +90,12 @@ h2 {
 .daftar-filter-list-content .tags-list {
     /* background-color: red; */
     border-radius: 12px;
+}
+.daftar-filter-list-content .tags-list::before {
+    /* background-color: red; */
+    /* border-radius: 12px; */
+    /* font-variant-caps: all-petite-caps; */
+    
 }
 
 .daftar-filter-list-content .tanggal {
@@ -107,7 +119,7 @@ h2 {
 
 .img-content-list-content {
     margin: 5px;
-    /* width: 390px; */
+    width: 97.5%;
     /* border: blue 2px solid; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -184,6 +196,14 @@ h2 {
 
     .wrapper-isi-content-list-content .isi-content-list-content {
         font-size: 14px;
+    }
+
+    .wrapper-isi-content-list-content h3 {
+        font-size: smaller;
+    }
+
+    .isi-content-list-content p {
+        font-size: xx-small;
     }
 }
 
