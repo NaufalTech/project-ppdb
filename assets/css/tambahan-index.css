@@ -4,18 +4,35 @@
 } */
 
 
+.height-fit-content {
+    height: fit-content !important;
+}
+
+
 .header-logo {
     height: 30px;
     margin: 0 10px 0 10px;
     
 }
 
+.intro-youtube-video {
+    /* height: 526.5px; */
+    max-width: 1000px ;
+    aspect-ratio: 16/9;
+}
+
+
+.fit-content {
+    width: fit-content;
+}
 
 #header .logo {
     min-width: 120px;
     /* height: 30px; */
     /* font-size: medium; */
 }
+
+
 
 .wrapper-section-title {
     display: flex;
@@ -25,8 +42,42 @@
     align-items: end;
 }
 
+.why-us .icon-boxes .icon-box div {
+    font-size: 32px;
+    padding: 18px;
+    color: #5fcf80;
+    margin-bottom: 30px;
+    background: #ecf9f0;
+    border-radius: 50px;
+  }
+
+  .why-us .icon-boxes .icon-box div i {
+    /* font-size: 0px; */
+    padding: 0px;
+    color: unset;
+    margin-bottom: 0px;
+    background: unset;
+    border-radius: 0px;
+
+    width: inherit;
+    display: flex;
+
+  }
+
+.why-us .icon-boxes .icon-box svg {
+    /* bac */
+    /* font-size: 32px; */
+    width: 70px;
+    height: 68px;
+    padding: 18px;
+    /* color: #5fcf80; */
+    margin-bottom: 30px;
+    background: #ecf9f0;
+    border-radius: 50px;
+}
+
 .wrapper-content {
-    width: 90%;
+    /* width: 90%; */
     overflow: hidden;
 }
 
@@ -114,7 +165,8 @@
 
 .berita-terbaru {
     padding: 0 0 40px 40px;
-    display: grid;
+    /* display: grid; */
+    /* display: ; */
     bottom: 0;
     position: absolute;
     width: initial;
@@ -147,7 +199,7 @@
     display: grid;
     margin-top: 10px;
     color: white;
-    max-height: 4.75rem;
+    /* max-height: 4.75rem; */
 }
 
 .hgroup-berita-terbaru h3 {
@@ -155,6 +207,7 @@
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    /* margin-bottom: 2 rem; */
 }
 
 .hgroup-berita-terbaru h3:hover {
@@ -208,6 +261,66 @@ a.button-lihatSelengkapnya {
     color: whitesmoke;
 }
 
+.wrapper .group-another-news {
+
+}
+
+.group-another-news{
+    /* width: 90%; */
+    
+    /* height: ; */
+    /* overflow-x: scroll; */
+    /* background-color: lightgray; */
+}
+
+.another-news {
+    /* max-width: 200px; */
+    /* aspect-ratio: 5/2; */
+    /* min-width: 25%; */
+    /* padding: 30px 15px; */
+    /* background: blue; */
+
+    
+}
+
+.another-news .news {
+    /* background: green; */
+    width: 100%;
+    height: 100%;
+    /* aspect-ratio: 9/16; */
+    /* border: solid rgb(61, 61, 61) 2px; */
+
+}
+
+.another-news .w-25 {
+    /* aspect-ratio: 9/16; */
+}
+
+.another-news .news .img {
+    /* background: url(http://localhost/project-ppdb/assets/img/about.jpg); */
+    /* width: 30%; */
+    width: 100%;
+    /* height: 100%; */
+    /* height: 50%; */
+    aspect-ratio: 16/9;
+    /* height: 80vh; */
+    /* background: url(../img/main-image.jpg) top center; */
+    background-size: cover !important;
+    /* image-rendering: ; */
+    /* position: relative; */
+    background-position: top !important;
+    
+}
+
+.another-news .news .head {
+    /* font-size: 40px; */
+}
+
+.another-news .news p {
+    /* font-size: 40px; */
+    text-align: justify; 
+}
+
 /* i.bi-arrow-right {
     color
 } */
@@ -224,10 +337,321 @@ a.button-lihatSelengkapnya {
     margin-bottom: 0px!important;
 }
 
-@media (max-width: 768px) {
+/* PPDB CSS */
+div.isi-content div.sec {
+    margin-bottom: 50px;
+}
+div.jadwal p::before {
+    content: icon;
+    list-style: circle;
+}
+
+.img-alur-pendaftaran {
+    justify-items: center;
+}
+
+.hasil-button-ppdb {
+    max-width: 1000px;
+}
+
+.hasil-button-ppdb div div.perhatian-login-akun {
+    border-radius: 10px;
+}
+
+.wrapper-title-login-akun p {
+    font-size: x-large;
+}
+
+.form-login-akun label {
+    /* width: 15px; */
+    margin-right: 35px;
+    align-self: center;
+
+}
+
+.form-login-akun div {
+    border: darkgray solid 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+.form-login-akun div i {
+    background-color: lightgray;
+    padding: 10px;
+    align-self: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.form-login-akun input {
+    /* width: 50%; */
+}
+
+.wrapper-form-daftar {
+    border-radius: 10px;
+}
+
+.form-daftar {
+    width: 850px;
+}
+
+.identitas-siswa-form-daftar > label.h5,
+.identitas-orang-tua-form-daftar > label.h5,
+.pendidikan-sebelumnya-form-daftar > label.h5,
+.pilihan-jurusan > label.h5,
+.berkas-form-daftar > label.h5 {
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.identitas-siswa-form-daftar div div label,
+.identitas-orang-tua-form-daftar div div label,
+.pilihan-jurusan div div label,
+.pendidikan-sebelumnya-form-daftar div div label,
+.berkas-form-daftar div div label,
+
+.identitas-siswa-form-daftar div div input,
+.identitas-orang-tua-form-daftar div div input,
+.pendidikan-sebelumnya-form-daftar div div input,
+.berkas-form-daftar div div input,
+.pilihan-jurusan div div select {
+    text-align: end;
+    font-size: 24px;
+}
+
+.identitas-siswa-form-daftar div div input,
+.identitas-orang-tua-form-daftar div div input,
+.pendidikan-sebelumnya-form-daftar div div input,
+.berkas-form-daftar div div input,
+.pilihan-jurusan div div select {
+    text-align: left !important;
+    
+}
+
+/* .tanggal-lahir div div {
+    font-size: x-small;
+} */
+
+.identitas-siswa-form-daftar div div div#radio {
+    display: flex;
+    /* margin-right: 6px; */
+}
+
+.identitas-siswa-form-daftar div div div#radio label {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.identitas-siswa-form-daftar div div div#radio label input {
+    margin-right: 6px;
+    
+}
+
+.steps-proses-pendaftaran{
+    width: 130px;
+}
+
+div.proses-pendaftaran .steps-green i.bi,
+div.proses-pendaftaran .current-step i.bi,
+div.proses-pendaftaran .last-step i.bi {
+    color: green!important;
+}
+.steps-proses-pendaftaran-title{
+    font-size: 16px;
+    font-style: normal;
+    margin-bottom: 0px;
+    margin-top: 4px;    
+}
+
+
+div.proses-pendaftaran .position-absolute {
+    position: absolute;
+    width:80.5px;
+    height: 6px;
+    margin-top: 22px;
+    margin-left: 89.5px;
+}
+
+div.proses-pendaftaran .position-absolute.dua{
+    margin-left: 219.5px;
+}
+
+div.proses-pendaftaran .position-absolute.tiga{
+    margin-left: 349.5px;
+}
+
+div.proses-pendaftaran .d-grid i.bi {
+    color: grey;
+}
+
+div.navigaton-form a h3,
+div.navigaton-form a i {
+    /* font-size: 11px !important; */
+    text-align: center;
+    /* text-justify: ; */
+}
+
+:root {
+    --bi-number-width: 50px;
+    --bi-p-width: inherit;
+    --step-background-green: rgb(0, 194, 0)!important;
+    --step-background-grey: rgb(184, 184, 184)!important;
+
+    /* width: ; */
+}
+
+/* .proses-pendaftaran p {
+    font-size: var(--bi-p-width);
+} */
+
+div.proses-pendaftaran i.bi {
+    font-size: 50px;
+    margin-left: calc(var(--bi-p-width)/2);
+    /* margin-left: cal/; */
+}
+
+
+
+div.proses-pendaftaran .position-absolute.green {
+    background: var(--step-background-green);
+
+}
+
+
+div.proses-pendaftaran .position-absolute.grey {
+
+    background: var(--step-background-grey);
+
+}
+
+
+/* .bibi {
+    color: blue;
+} */
+
+.identitas-siswa-form-daftar div div .small {
+    width: 87%!important;
+}
+
+
+
+.dashboard-admin #navbar div .collapse lu li a{
+    /* display: block; */
+    /* color: unset !important; */
+}
+
+.dashboard-admin #header.d-md-none{
+    /* margin-bottom: 0px; */
+    border-radius: 20px;
+}
+
+.dashboard-admin #header.d-flex .btn [data-bs-target="#nav-collapse-dashboard-admin-1"],
+.dashboard-admin #header.d-flex .btn [data-bs-target="#nav-collapse-dashboard-admin-1"]:hover,
+.dashboard-admin #header.d-flex .btn [data-bs-target="#nav-collapse-dashboard-admin-1"]:active {
+    /* background-color: orange; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+article.pengaturan-dashboardAdmin-PPDB .wrapper-form {
+    /* height: ; */
+}
+
+article.pengaturan-dashboardAdmin-PPDB label input {
+    margin-right: 10px;
+}
+
+article.pengaturan-dashboardAdmin-PPDB .jurusan table a {
+    border-radius: 5px;
+    height: fit-content;
+}
+
+article.pengaturan-dashboardAdmin-PPDB .jurusan table a i {
+    height: fit-content;
+}
+
+.grid-auto-flow-column {
+    grid-auto-flow: column;
+}
+
+.dash
+
+/* .dashboard-admin #navbar div p */
+.dashboard-admin-website ul .my-2 {
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+
+
+    .identitas-siswa-form-daftar div div .small {
+        width: 87%!important;
+    }
+    .wrapper-proses-pendaftaran {
+        width: 280px;
+    }
+
+    div.proses-pendaftaran .position-absolute {
+        width: 63.5px;
+        height: 4px;
+        margin-top: 13px;
+        /* margin-left: 91px; */
+    }
+
+    .steps-proses-pendaftaran-title{
+        font-size: 12px;
+    }
+
+    :root {
+        --bi-number-width: 30px;
+    }
+
+    div.proses-pendaftaran .position-absolute.satu {
+        margin-left: 61.5px;
+    }
+
+    div.proses-pendaftaran .position-absolute.dua{
+        margin-left: 155px;
+    }
+    
+    div.proses-pendaftaran .position-absolute.tiga{
+        margin-left: 189.5px;
+    }
+
+    .dashboard-admin .wrapper-navbar {
+        
+        /* margin: 10px; */
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .grid-auto-flow-column {
+        grid-auto-flow: row;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .h3-berita-terbaru {
+        font-size: larger;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .section-title #h2-section-title {
+        font-size: xx-small;
+    }
 
     .section-title #title-kegiatan-terbaru {
         font-size: medium;
+    }
+
+    a.button-lihatSelengkapnya{
+        font-size: large !important;
     }
 
     #swiper-button-prev, #swiper-button-next {
@@ -246,6 +670,8 @@ a.button-lihatSelengkapnya {
         transition: unset;
         
     } */
+
+    
     
     .berita-terbaru {
         padding: 0 0 15px 15px;
@@ -257,12 +683,12 @@ a.button-lihatSelengkapnya {
     }
 
     .h3-berita-terbaru {
-        font-size: x-large;
-        margin-bottom: 0px;
+        font-size: large;
+        /* margin-bottom: 0px; */
         /* max-height: fit-content; */
     }
 
-    .h5-berita-terbaru {
+    .tanggal-berita-terbaru {
         font-size: x-small;
     }
 
@@ -283,10 +709,116 @@ a.button-lihatSelengkapnya {
     #swiper-pagination {
         bottom: 1px;
     }
+    
+    .img-alur-pendaftaran span {
+        font-size: x-small;
+    }
+    
+    /* .wrapper-proses-pendaftaran {
+        width: 600px;
+    } */
+
+    .form-daftar {
+        /* min-width: 365px; */
+        width: fit-content;
+    }
+
+    .identitas-siswa-form-daftar div div label,
+    .identitas-orang-tua-form-daftar div div label,
+    .pendidikan-sebelumnya-form-daftar div div label,
+    .berkas-form-daftar div div label,
+    .pilihan-jurusan div div label,
+    
+    .identitas-siswa-form-daftar div div input,
+    .identitas-orang-tua-form-daftar div div input,
+    .pendidikan-sebelumnya-form-daftar div div input,
+    .berkas-form-daftar div div input,
+    .pilihan-jurusan div div select
+    {
+        font-size:x-small ;
+    }
+
+    .identitas-siswa-form-daftar div div div,
+    .identitas-orang-tua-form-daftar div div div,
+    .pendidikan-sebelumnya-form-daftar div div div
+    /* .berkas-form-daftar div div label */ {
+        /* text-align: end;
+        margin-right: 2rem; */
+        font-size: xx-small;
+    }
+
+    /* .identitas-siswa-form-daftar div div div#radio label {
+        font-size: medium;
+    } */
+
+    .identitas-siswa-form-daftar > label.h5,
+    .pilihan-jurusan > label.h5,
+    .identitas-orang-tua-form-daftar > label.h5,
+    .pendidikan-sebelumnya-form-daftar > label.h5,
+    .berkas-form-daftar > label.h5 {
+        font-size: medium;
+    }
+
+    /* .file-berkas-form-daftar {
+        font-size: smaller;
+    } */
+
+    .wrapper-proses-pendaftaran .title {
+        font-size: 30px;
+    }
+
+
+    /* div.proses-pendaftaran i.bi {
+        font-size: 30px;
+        margin: 0 10px 0 10px !important;
+    } */
+
+    div.proses-pendaftaran .border-top {
+        /* font-size: 40px; */
+        margin: 0 10px 0 10px !important;
+    }
+
+    .identitas-siswa-form-daftar div div div#radio label {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        font-size: xx-small;
+    }
+
+    /* div.proses-pendaftaran .steps-grey ::after,
+div.proses-pendaftaran .current-step ::after {
+
+    width: 50px;
+    height: 3px;
+
+    background: lightgray;
+    content: "kontol";\
+
+    top: 8.2rem;
+} */
+    div.navigaton-form a h3,
+    div.navigaton-form a i {
+        font-size: 11px !important;
+    }
+
+    div.navigaton-form a i {
+
+    }
+
+    a.back-to-top {
+        display: none;
+    }
+
+
 }
-@media (max-width: 425px){
+@media screen and (max-width: 425px){
 
     /* header */
+    
+    
+    .back-to-top {
+        display: none !important;
+    }
 
     #header .logo {
         display: flex;
@@ -295,6 +827,18 @@ a.button-lihatSelengkapnya {
 
     #header .logo a {
         font-size: medium;
+    }
+
+    .section-title #h2-section-title {
+        font-size: 6px;
+    }
+
+    .section-title #title-kegiatan-terbaru {
+        font-size: 10px;
+    }
+
+    a.button-lihatSelengkapnya{
+        font-size: small !important;
     }
 
     /* swiper */
@@ -306,17 +850,81 @@ a.button-lihatSelengkapnya {
         margin-top: 5px;
     }
 
+    
+
     .h3-berita-terbaru {
-        font-size: medium;
+        font-size: smaller;
     }
 
-    .h5-berita-terbaru {
+    .tanggal-berita-terbaru {
         font-size: xx-small;
     }
 
     #footer .footer-top {
         padding-top: 20px;
     }
+
+    .img-alur-pendaftaran span {
+        font-size: xx-small;
+    }
+
+    .wrapper-form-login-akun {
+
+    }
+
+    .form-daftar {
+        width: 285px;
+    }
+
+    .identitas-siswa-form-daftar > label.h5,
+    .identitas-orang-tua-form-daftar > label.h5,
+    .pendidikan-sebelumnya-form-daftar > label.h5,
+    .berkas-form-daftar > label.h5 {
+        font-size: small;
+    }
+    
+    .identitas-siswa-form-daftar div div label,
+    .identitas-orang-tua-form-daftar div div label,
+    .pendidikan-sebelumnya-form-daftar div div label,
+    .berkas-form-daftar div div label,
+    
+    .identitas-siswa-form-daftar div div input,
+    .identitas-orang-tua-form-daftar div div input,
+    .pendidikan-sebelumnya-form-daftar div div input,
+    .berkas-form-daftar div div input{
+        font-size: xx-small;
+    }
+
+    .identitas-siswa-form-daftar div div div#radio  {
+        display: grid;
+        gap: 5px;
+        justify-items: baseline;
+    }
+
+    .identitas-siswa-form-daftar div div div#radio label input {
+        margin-right: 6px;
+    }
+
+    .file-berkas-form-daftar {
+        font-size: xx-small;
+    }
+
+    .wrapper-proses-pendaftaran .title {
+        font-size: 20px;
+    }
+
+    div.proses-pendaftaran .border-top {
+        /* font-size: 40px; */
+        margin: 0 5px 0 5px !important;
+    }
+
+    div.proses-pendaftaran .d-grid {
+    font-size: x-small;
+    }
     
 
+}
+
+a .wrapper-berita-terbaru :hover{
+    outline: 0;
 }

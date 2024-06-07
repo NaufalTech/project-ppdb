@@ -7,8 +7,67 @@
 
 </head>
 <body>
+    <marquee behavior="alternate" direction="" truespeed="" width="">naufal</marquee>
+    <p id="waktuText"></p>
+    <p id="waktu"></p>
+    <p id="waktuutc"></p>
+    <p >asli
+        <i id="waktuasli"></i>
+    </p>
+    <p>
+        <div id="1"></div> - <div id="2"></div>
+    </p>
+    <p> = <div id="sama"></div></p>
+    <div id="kumpulanTable">
+        <table>
+            <thead>
+                <th>No</th>
+                <th>nama</th>
+            </thead>
+            <tbody id="bodyTable">
+            </tbody>
+        </table>
+        <table>
+            <thead>
+                <th>No</th>
+                <th>nama</th>
+            </thead>
+            <tbody id="bodyTable1">
+            </tbody>
+        </table>
+    </div>
+    <p id="coba"></p>
     
     <!-- <script src=""></script> -->
     <script src="assets/js/coba.js"></script>
+    <style>
+        marquee {
+            /* width: 150px; */
+            
+        }
+
+        #kumpulanTable {
+            display: flex;
+            gap: 100px;
+        }
+
+        table {
+            border-spacing: none;
+            border-collapse: collapse;
+            
+        }
+
+        th, tr, td {
+            border: solid black 1px;
+        }
+
+        td, th {
+            padding: 5px;
+        }
+
+        td#numberTable {
+            text-align: center;
+        }
+    </style>
 </body>
 </html>

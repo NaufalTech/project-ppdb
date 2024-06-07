@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .container {
+            width: 400px;
+            aspect-ratio: 1/1;
+            border: solid 2px red;
+        }
+        .con1 {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            z-index: 3;
+            position: absolute;
+        }
+
+        .con11 {
+            width: 100px;
+            height: 100px;
+            background: lightcoral;
+            position: relative;
+            top: 150px;
+            z-index: 2;
+        }
+
+        .con2 {
+            width: 200px;
+            height: 200px;
+            background: lightcyan;
+            z-index: 3;
+            position: relative;
+        }
+    </style>
+    <div class="container">
+        <div class="con1">
+            <div class="con11">
+                what the heck
+            </div>
+        </div>
+        <div class="con2">
+
+        </div>
+    </div>
+    
+</body>
+</html>
